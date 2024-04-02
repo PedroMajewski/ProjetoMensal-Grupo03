@@ -9,6 +9,9 @@ Repository Projeto Mensal - Grupo 03
 
 **REQUISITOS FUNCIONAIS**
 
+**RF01 - Escolha de serviço**
+O cliente deve escolher os serviços oferecidos pela barbearia bem
+como unidade e profissional a realizar o procedimento escolhido.
 
 
 **RF02 - História**
