@@ -2,7 +2,9 @@
 Repository Projeto Mensal - Grupo 03
 
 **NOME: Projeto Mensal Grupo 03**
+
 **INTEGRANTES: Pedro Henrique Majewski, Gabriel Nunes, Gabriel Marrone, Patryk Rennan, Danley Fernando**
+
 **DESCRIÇÃO: O projeto tem como finalidade a criação de uma aplicação web para Barbearias, simplificando a interação entre o consumidor e o profissional, automatizando o processo tradicional. Neste documento, será detalhado não somente a funcionalidade, mas também a visão e nosso objetivo com o mesmo.**
 
 **REQUISITOS FUNCIONAIS**
