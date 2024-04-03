@@ -17,6 +17,7 @@ como unidade e profissional a realizar o procedimento escolhido.
 **RF02 - História**
 Aba “sobre” para que o cliente possa saber como começou a
 barbearia e todo o caminho trilhado pelo dono.
+TESTE TESTE TESTE
 
 **RF03 - Portfólio**
 Galeria com fotos dos cortes já feitos para inspiração dos clientes.
