@@ -12,6 +12,7 @@ Repository Projeto Mensal - Grupo 03
 **RF01 - Escolha de serviço**
 O cliente deve escolher os serviços oferecidos pela barbearia bem
 como unidade e profissional a realizar o procedimento escolhido.
+TESTETASDASDASDASDASDAS
 
 
 **RF02 - História**
