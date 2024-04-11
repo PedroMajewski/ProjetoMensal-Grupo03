@@ -3,13 +3,20 @@ body{
     padding: 0;
 }
 
+
 .rodape{
     height: 222px;
     background-color: #051B30;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
 }
 
 .rodape-background{
-    align-items: center;
+    gap: 120px;
+    display: flex;    
 }
 
 .texto-footer{
