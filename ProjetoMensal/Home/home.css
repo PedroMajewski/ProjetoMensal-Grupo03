@@ -3,7 +3,6 @@ body{
     padding: 0;
 }
 
-
 .rodape{
     height: 222px;
     background-color: #051B30;
@@ -15,13 +14,18 @@ body{
 }
 
 .rodape-background{
-    gap: 120px;
+    align-items: center;
+    gap: 200px;
     display: flex;    
 }
 
 .texto-footer{
-    font-family: Inter sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 300;
     font-size: 19px;
     color: #FFF;
+}
+
+.icone{
+    height: 32px;
 }
