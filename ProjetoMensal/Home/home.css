@@ -3,3 +3,30 @@
     justify-content: center;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.rodape{
+    height: 222px;
+    background-color: #051B30;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.rodape-background{
+    gap: 120px;
+    display: flex;    
+}
+
+.texto-footer{
+    font-family: Inter sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    color: #FFF;
+}
