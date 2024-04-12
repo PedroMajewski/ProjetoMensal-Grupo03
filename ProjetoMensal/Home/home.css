@@ -2,7 +2,119 @@
 body{
     margin: 0;
     padding: 0;
+    background-image:linear-gradient( rgba(255, 255, 255, 0),rgba(5, 27, 48, 0.26), #051B30), url('../Assets/Fundo-introducao.jpg');
+  background-repeat:repeat-x;
+  background-attachment:local;
+  background-position:top;
+  background-size:contain;
+  background-color: #051B30;
+  
 }
+
+/*Scroll Na parte direita do Site --*/
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+    background-color: #051B30;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #051B30;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #7a7a7a;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(185, 185, 185);
+}
+
+::-webkit-scrollbar-button{
+    color: #7a7a7a;
+}
+
+/*Cabecalho*/
+.cabecalho{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho h1{
+    color: #FFF;
+}
+
+
+/* Página Principal*/
+.introducao{
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-introducao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-introducao h2{
+    color: #FFF;
+    font-weight: 300;
+}
+
+.div-introducao button{
+    padding: 8px 20px;
+    border: none;
+    background-color: #E3402A;
+    color: #FFF;
+    border-radius: 1px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.div-introducao button:hover{
+    background-color: #d1341f;
+}
+
+@media screen and (max-width:450px) {
+    body{
+        background-image:linear-gradient( rgba(255, 255, 255, 0),#051B30), url('../Assets/Fundo-mobile.png');
+  background-repeat:no-repeat;
+  background-attachment:local;
+  background-size:contain;
+  background-color: #051B30;
+    }
+
+    .introducao{
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-introducao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-introducao h2{
+        font-size: 19px;
+    }
+
+    .div-introducao button{
+        font-size: 15px;
+    }
+}
+/*Rodapé Apenas abaixo*/
+
 
 .rodape{
     height: 222px;
