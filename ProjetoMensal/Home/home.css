@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image:linear-gradient( rgba(255, 255, 255, 0),rgba(5, 27, 48, 0.26), #051B30), url('../Assets/Fundo-introducao.jpg');
+    background-image:linear-gradient( rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.699), rgb(5, 27, 48), rgb(5, 27, 48)), url('../Assets/Fundo-introducao.jpg');
   background-repeat:repeat-x;
   background-attachment:local;
   background-position:top;
@@ -82,9 +82,41 @@ body{
     background-color: #d1341f;
 }
 
+.historia{
+    display: flex;
+    background-color: #051B30;
+    justify-content: center;
+}
+
+.div-historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-historia img{
+    height: 25px;
+    margin: 15px 15px;
+}
+
+.div-historia h2{
+    color: #FFF;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.div-historia p{
+    text-align: center;
+    color: #FFF;
+    width: 700px;
+    font-weight: 400;
+}
+
+
+/* -- UTILIZAR O MEDIA SCREEN PARA FAZER A RESPONSIVIDADE*/
 @media screen and (max-width:450px) {
     body{
-        background-image:linear-gradient( rgba(255, 255, 255, 0),#051B30), url('../Assets/Fundo-mobile.png');
+        background-image:linear-gradient( rgba(255, 255, 255, 0),#051B30, #051B30), url('../Assets/Fundo-mobile.png');
   background-repeat:no-repeat;
   background-attachment:local;
   background-size:contain;
@@ -111,6 +143,28 @@ body{
 
     .div-introducao button{
         font-size: 15px;
+    }
+  
+    .div-historia{
+        margin-top: 50px;
+    }
+    
+    .div-historia img{
+        height: 25px;
+        margin: 15px 15px;
+    }
+    
+    .div-historia h2{
+        color: #FFF;
+        font-weight: 600;
+        font-style: italic;
+    }
+    
+    .div-historia p{
+        color: #FFF;
+        width: 300px;
+        font-weight: 400;
+        text-align: center;
     }
 }
 /*Rodapé Apenas abaixo*/
