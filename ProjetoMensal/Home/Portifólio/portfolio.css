@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(5, 27, 48);
+ 
+}
+
+.portifolio {
+    padding: 20px;
+}
+.portifolio{
+    display: flex;
+    
+}
+
+/*Cabecalho*/
+.cabecalho{
+    display: flex;
+    align-items: center;
+    letter-spacing: normal;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+
