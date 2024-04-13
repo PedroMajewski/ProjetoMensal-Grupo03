@@ -40,10 +40,7 @@ body{
 .cabecalho{
     display: flex;
     align-items: center;
-}
-
-.cabecalho h1{
-    color: #FFF;
+    letter-spacing: normal;
 }
 
 
