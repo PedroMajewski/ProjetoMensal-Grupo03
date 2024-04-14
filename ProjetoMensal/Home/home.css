@@ -185,6 +185,7 @@ body{
 
 .texto-footer{
     font-family: "Inter", sans-serif;
+    align-content: center;
     font-weight: 300;
     font-size: 19px;
     color: #FFF;
@@ -192,4 +193,34 @@ body{
 
 .icone{
     height: 32px;
+}
+
+.div-imagem-email{
+    background-color: #051B30;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: absolute;
+    margin-top: 86px;
+    margin-left: 795px;
+}
+
+.div-imagem-mapa{
+    background-color: #051B30;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: absolute;
+    margin-top: 86px;
+    margin-left: 379px;
+}
+
+.div-imagem-celular{
+    background-color: #051B30;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: absolute;
+    margin-top: 86px;
+    margin-left: 1259px;
 }
