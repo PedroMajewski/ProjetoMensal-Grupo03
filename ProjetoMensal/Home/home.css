@@ -92,7 +92,7 @@ body{
 }
 
 .div-historia img{
-    height: 25px;
+    height: 30px;
     margin: 15px 15px;
 }
 
@@ -125,7 +125,7 @@ body{
     height: 520px;
     width: 430px;
     padding: 15px;
-    border-radius: 3px;
+    border-radius: 5px;
 
 }
 
@@ -176,6 +176,155 @@ body{
 .servico1{
     margin-bottom: 35px;
 }
+
+.agendamento{
+    height: 1000px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.div-agendamento{
+    margin:60px;
+    color: #FFF;
+    width: 50%;
+
+}
+
+.div-agendamento h2{
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 45px;
+}
+
+.div-agendamento h4{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px
+}
+
+.div-agendamento img{
+    height: 400px;
+    padding: 20px;
+}
+
+.div-agendamento-descricao{
+    margin:80px;
+    color: #FFF;
+    font-weight: 400;
+    margin-top: 20%;
+    max-width: 25%;
+    text-align: end;
+}
+
+.div-agendamento-descricao h2{
+    margin-bottom: 0.5em;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.div-agendamento-descricao img{
+    z-index: 99;
+    width: 40px;
+}
+
+.div-agendamento-descricao p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.div-agendamento-descricao button{
+    background-color: #E3402A;
+    padding: 13px 28px;
+    border: none;
+    background-color: #E3402A;
+    color: #FFF;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.div-agendamento-descricao button:hover{
+    background-color: #d1341f;
+}
+
+.portfolio{
+    height: 1000px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.div-portfolio{
+    color: #FFF;
+    width: 50%;
+
+}
+
+.div-portfolio h2{
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 45px;
+}
+
+.div-portfolio h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.div-portfolio img{
+    height: 400px;
+    padding: 20px;
+    
+}
+
+.div-portfolio-descricao{
+    margin:80px;
+    color: #FFF;
+    font-weight: 400;
+    margin-top: 13%;
+    width: 50%;
+}
+
+.div-portfolio-descricao img{
+    width: 40px;
+}
+
+.div-portfolio-descricao h2{
+    margin-bottom: 0.5em;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.div-portfolio-descricao p{
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 75%;
+}
+
+.div-portfolio-descricao button{
+    background-color: #E3402A;
+    padding: 13px 28px;
+    border: none;
+    background-color: #E3402A;
+    color: #FFF;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.div-portfolio-descricao button:hover{
+    background-color: #d1341f;
+}
+
+
 /* -- UTILIZAR O MEDIA SCREEN PARA FAZER A RESPONSIVIDADE*/
 @media screen and (max-width:450px) {
     body{
@@ -228,9 +377,17 @@ body{
         width: 300px;
         font-weight: 400;
         text-align: center;
+        margin-bottom: 5em;
     }
     
-    
+    .servicos{
+        height: 500px;
+    }
+
+    .div-servicos{
+        background:#000000b0;
+        height: 500px;
+    }
 }
 /*Rodapé Apenas abaixo*/
 
