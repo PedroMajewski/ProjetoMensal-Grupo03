@@ -109,7 +109,73 @@ body{
     font-weight: 400;
 }
 
+.servicos{
+    height: 630px;
+    background-image: url('../Assets/Fundo-servicos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+
+.div-servicos{
+    background-color: #E3402A;
+    height: 520px;
+    width: 430px;
+    padding: 15px;
+    border-radius: 3px;
+
+}
+
+.div-servicos img{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-servicos h2{
+    color: #FFF;
+    font-weight: 600;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+    margin-bottom: 25px;
+}
+
+.descricao{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    justify-content: space-between;
+    margin: 0px 25px;
+}
+
+.descricao h4{
+    font-weight: 300;
+}
+
+
+.descricao h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.descricao img{
+    height: 25px;
+}
+
+.servico1 p{
+    margin-left: 25px;
+}
+
+.servico1{
+    margin-bottom: 35px;
+}
 /* -- UTILIZAR O MEDIA SCREEN PARA FAZER A RESPONSIVIDADE*/
 @media screen and (max-width:450px) {
     body{
@@ -163,6 +229,8 @@ body{
         font-weight: 400;
         text-align: center;
     }
+    
+    
 }
 /*Rodapé Apenas abaixo*/
 
