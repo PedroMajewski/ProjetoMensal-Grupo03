@@ -1,4 +1,24 @@
 
+
+/* fonte*/
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.cabecalho, .cabecalho nav, .cabecalho nav a {
+    font-family: 'Inter', sans-serif; 
+    color:#FFF
+}
+
+/* cabeçalho*/
+
+
+
 .cabecalho img{
     display: flex;
     justify-content: left;
@@ -8,17 +28,21 @@
     justify-content: space-between;
     align-items: center;
     letter-spacing: normal;
+    font-family: 'Inter', sans-serif; 
 }
 .cabecalho nav {
     flex-grow: 1;
     text-align: center; 
+    font-family: 'Inter', sans-serif; 
 }
 
 .cabecalho nav a {
     margin: 0 15px;
     text-decoration: none; 
+    font-family: 'Inter', sans-serif; 
 }
 
+/* Agendamento CSS*/
 .container {
     margin-top: 100px; 
     display: flex;
@@ -28,30 +52,25 @@
 .form-container{
     width: 60%;
     padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
     background-color: #051B30;
     text-align: auto;
     margin-left: 200px;
-    
+    margin-bottom: 5%;
 }
 
 .historico-container{
     width: 60%;
     padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
     background-color: #051B30;
     text-align: auto;
     margin-right: 200px;
-  
-
+    margin-bottom: 5%;
+    margin-right: 10%;
 }
-
-
-
 
 .form-group {
     margin-bottom: 20px; 
@@ -64,9 +83,7 @@ label {
     color: #ffffff;
     border-radius: 10px; 
     padding: 10px; 
-    
 }
-
 
 input[type="text"] {
     border: 1px solid #ccc; 
@@ -77,40 +94,32 @@ input[type="text"] {
 }
 
 body {
-    background-image: url('Imagens/Img/OIP.jpg');
-    
+    background-image: url('Imagens/Img/BackGround.jpg');
     background-size: cover; 
     background-position: center; 
 }
 
-
-
 input[type="tel"] {
-
     border: 1px solid #ccc; 
     border-radius: 5px;
     padding: 5px; 
     font-size: 16px; 
     width: 200px; 
-
-
-
 }
 
 button[type="submit"]{
     background-color: #E3402A;
-            color: white; 
-            padding: 10px 20px; 
-            font-size: 16px; 
-            border: none; 
-            cursor: pointer; 
-            border-radius: 5px;
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px;
 }
 
 button[type="submit"]:hover {
     background-color: #e46600; 
 }
-
 
 button:active {
     background-color: #911d0d; 
@@ -123,6 +132,7 @@ button:active {
 .historico-container h2{
     color: white ;
 }
+/* Roda pe*/
 
 .rodape{
     height: 222px;
@@ -142,6 +152,7 @@ button:active {
 
 .texto-footer{
     font-family: "Inter", sans-serif;
+    align-content: center;
     font-weight: 300;
     font-size: 19px;
     color: #FFF;
@@ -150,3 +161,73 @@ button:active {
 .icone{
     height: 32px;
 }
+
+.div-imagem-email{
+    background-color: #051B30;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: absolute;
+    margin-top: 86px;
+    margin-left: 50rem;
+}
+
+.div-imagem-mapa{
+    background-color: #051B30;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: absolute;
+    margin-top: 5.5rem;
+    margin-left: 22rem;
+}
+
+.div-imagem-celular{
+    background-color: #051B30;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: absolute;
+    margin-top: 86px;
+    margin-left: 74.5rem;
+}
+
+
+/* Responsividade mobile*/
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+
+    .form-container {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .historico-container {
+        width: 100%;
+        
+    }
+
+    .rodape {
+        height: auto; 
+    }
+
+    .rodape-background {
+        height: auto; 
+        font-size: 14px; 
+        padding: 5%; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+        text-align: center; 
+    }
+
+    .texto-footer {
+        margin: 5%; 
+    }
+}
+
+
