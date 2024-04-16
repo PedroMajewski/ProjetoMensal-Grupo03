@@ -122,7 +122,7 @@ body{
     align-content: center;
     position: absolute;
     margin-top: 86px;
-    margin-left: 55rem;
+    margin-left: 50rem;
 }
 
 .div-imagem-mapa{
@@ -131,8 +131,8 @@ body{
     flex-wrap: wrap;
     align-content: center;
     position: absolute;
-    margin-top: 86px;
-    margin-left: 26rem;
+    margin-top: 5.5rem;
+    margin-left: 22rem;
 }
 
 .div-imagem-celular{
@@ -142,7 +142,7 @@ body{
     align-content: center;
     position: absolute;
     margin-top: 86px;
-    margin-left: 80rem;
+    margin-left: 74.5rem;
 }
 @media screen and (max-width:450px) {
     .portifolio {
