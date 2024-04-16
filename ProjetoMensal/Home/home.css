@@ -39,9 +39,59 @@ body{
 /*Cabecalho*/
 .cabecalho{
     display: flex;
-    align-items: center;
     letter-spacing: normal;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
+.cabecalho nav{
+    display: flex;
+    letter-spacing: normal;
+    justify-content: center;
+}
+
+.flex1{
+    flex:1;
+}
+
+.flex3{
+    flex: 3;
+}
+
+.nav-item{
+    font-size: 25px;
+    padding-right: 1.25rem;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 300;
+    
+
+}
+.cabecalho-div img{
+    height: 27px;
+    display: flexbox;
+    align-items: center;
+    
+}
+.cabecalho-div a {
+    font-size: 25px;
+    padding-right: 1.25rem;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 300;
+}
+.imagens {
+    display: flex;
+    justify-content: end;
+    margin-right: 6.7%;
+    
+}
+.imagens img{
+    height: 27px;
+    margin-right: 0.5%;
+    margin-top: -1%;   
+}
+
 
 
 /* Página Principal*/
