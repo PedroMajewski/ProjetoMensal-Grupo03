@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image:linear-gradient( rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.699), rgb(5, 27, 48), rgb(5, 27, 48)), url('../Assets/Fundo-introducao.jpg');
+    background-image: url('../Assets/Fundo-introducao.jpg');
   background-repeat:repeat-x;
   background-attachment:local;
   background-position:top;
@@ -10,6 +10,7 @@ body{
   background-color: #051B30;
   
 }
+
 
 /* Responsividade do Mapa*/
 body iframe{
@@ -101,10 +102,11 @@ body iframe{
 
 /* Página Principal*/
 .introducao{
-    height: 53.125rem;
+    height: 60rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: linear-gradient(rgb(5, 27, 48),rgb(5, 27, 48));
 }
 
 .div-introducao{
@@ -283,6 +285,14 @@ body iframe{
     margin-top: 2rem;
 }
 
+.agendamento-imagens img:hover{
+    filter: contrast(80%);
+    filter: brightness(50%);
+    cursor: pointer;
+    transition: .1s;
+}
+
+
 .agendamento-imagens img{
     padding: 0.8rem;
 }
@@ -327,9 +337,9 @@ body iframe{
 
 .portfolio{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 45rem;
+    height: 50rem;
     background-color: #051B30;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -337,28 +347,32 @@ body iframe{
 
 .div-portfolio{
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
-    flex-direction: row-reverse;
+    
     
 }
 .portfolio-texto{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-between;
-    text-align: end;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .portfolio-imagens{
     width: 50rem;
-    
+    margin-top: 2rem;
+    text-align: end;
 }
 
 .portfolio-imagens img{
     padding: 0.8rem;
 }
 
+.portfolio-descricao{
+    padding-right: 15rem;
+}
 
 .portfolio-descricao h2{
     color: #FFF;
@@ -366,6 +380,10 @@ body iframe{
     font-style: italic;
     font-size: 3rem;
     
+}
+
+.portfolio-descricao h4,h6{
+    display: none;
 }
 
 .portfolio-descricao p{
@@ -387,6 +405,8 @@ body iframe{
 .portfolio-descricao button:hover{
     background-color: #d1341f;
 }
+
+
 
 /* -- Horários de Agendamento */
 
