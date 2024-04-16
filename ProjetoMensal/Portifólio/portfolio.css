@@ -57,7 +57,7 @@ body{
 .imagens img{
     height: 27px;
     margin-right: 0.5%;
-    margin-top: -1%;   
+    margin-top: -4rem;   
 }
 
 /*Portifolio*/
@@ -147,8 +147,8 @@ body{
 @media screen and (max-width:450px) {
     .portifolio {
         display: grid;
-        grid-template-columns: 20rem 20rem;
-        margin-left: 20rem;
+        grid-template-columns: 6rem 6rem;
+        margin-left: 4rem;
         gap: 3rem 8rem;
         padding: 30px;
         justify-content: center;
@@ -163,5 +163,9 @@ body{
         margin-bottom: 5rem;
         margin-top: 3rem;
         color: #fff;
+    }
+    .div-portifolio img{
+        width: 190px;
+        height: 150px;
     }
 }
