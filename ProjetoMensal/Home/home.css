@@ -106,7 +106,7 @@ body iframe{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: linear-gradient(rgb(5, 27, 48),rgb(5, 27, 48));
+    background: linear-gradient(#051b3000,#051b3000,#051b30b3, #051b30,#051B30);
 }
 
 .div-introducao{
@@ -164,6 +164,7 @@ body iframe{
     color: #FFF;
     width: 700px;
     font-weight: 400;
+    margin-bottom: 3rem;
 }
 
 .servicos{
@@ -240,7 +241,7 @@ body iframe{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 62.5rem;
+    height: 50rem;
     background-color: #051B30;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -250,7 +251,7 @@ body iframe{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    margin: 10rem;
     
 }
 .agendamento-texto{
@@ -258,8 +259,6 @@ body iframe{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding: 3.75rem;
-    margin: 20px;
 }
 
 .descricao-mobile{
@@ -298,7 +297,6 @@ body iframe{
 }
 
 .agendamento-descricao{
-    padding-right: 3.75rem;
     padding-left: 10rem;
     text-align: end;
 }
@@ -337,7 +335,7 @@ body iframe{
 
 .portfolio{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 50rem;
     background-color: #051B30;
@@ -357,6 +355,7 @@ body iframe{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin:12rem;
 }
 
 
