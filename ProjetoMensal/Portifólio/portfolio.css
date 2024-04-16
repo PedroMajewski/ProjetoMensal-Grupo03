@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(5, 27, 48);
- 
+
 }
 /*Cabecalho*/
 .cabecalho{
@@ -144,11 +144,29 @@ body{
     margin-top: 86px;
     margin-left: 74.5rem;
 }
-@media screen and (max-width:450px) {
+@media screen and (max-width:768px) {
+    
+    .cabecalho img{
+        height: 4rem;
+        margin-top: -6rem;
+    }
+    .cabecalho.cabecalho-div flex1 > img {
+        height: -9rem;
+    }
+    .cabecalho nav{
+        margin-top: -5rem;
+    }
+    .cabecalho.nav-item{
+        display: block;
+        margin-bottom: -9rem;
+    }
+
+    
+    
     .portifolio {
         display: grid;
-        grid-template-columns: 6rem 6rem;
-        margin-left: 4rem;
+        grid-template-columns: 6rem;
+        margin-left: -5rem;
         gap: 3rem 8rem;
         padding: 30px;
         justify-content: center;
@@ -159,7 +177,7 @@ body{
     }
     .portifolio-title{
         text-align: center;
-        margin-left: 18.5rem;
+        margin-left: 0.8rem;
         margin-bottom: 5rem;
         margin-top: 3rem;
         color: #fff;
