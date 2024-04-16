@@ -432,6 +432,75 @@ body{
     font-size: 1rem;
 }
 
+.feedback{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 31.25rem;
+}
+
+.feedback h2{
+    font-weight: 600;
+    color: #FFF;
+    font-style: italic;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.div-feedback{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comentario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#E3402A;
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 30rem;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.comentario img{
+    margin-top: -4rem;
+    margin-bottom: 1rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.comentario h3{
+    color: #FFF;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.comentario p{
+    color: #FFF;
+    font-weight: 300;
+    text-align: center;
+}
+
+.comentario h6{
+    color: #FFF;
+    font-weight: 400;
+}
+
+.estrelas {
+    margin-top: 3rem;
+    height: 0rem;
+    
+}
+
+.estrelas img{
+    height: 1.8rem;
+}
+
 /* -- UTILIZAR O MEDIA SCREEN PARA FAZER A RESPONSIVIDADE*/
 @media screen and (max-width:450px) {
     body{
