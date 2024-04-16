@@ -31,12 +31,13 @@ header{
 }
 .portifolio {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px 2px;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    gap: 10px 2px;
     padding: 30px;
     justify-content: center;
     text-align: center;
 }
+
 .div-portifolio img{
     width: 250px;
     height: 250px;

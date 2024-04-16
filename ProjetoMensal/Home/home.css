@@ -184,10 +184,30 @@ body{
 }
 
 .div-agendamento{
+    display: block;
     margin:60px;
     color: #FFF;
     width: 50%;
+}
 
+.div-agendamento{
+    margin:60px;
+    color: #FFF;
+    width: 50%;
+    max-height: 100%;
+}
+
+.agendamento-img{
+    width:100%;
+    height: 80%;
+    max-width: 100%;
+    max-height: 80%;
+}
+
+
+.agendamento-img img{
+    height: 50%;
+    padding: 20px;
 }
 
 .div-agendamento h2{
@@ -203,11 +223,6 @@ body{
     font-size: 20px;
     margin-bottom: 30px;
     margin-left: 20px
-}
-
-.div-agendamento img{
-    height: 400px;
-    padding: 20px;
 }
 
 .div-agendamento-descricao{
@@ -260,8 +275,9 @@ body{
 
 .div-portfolio{
     color: #FFF;
-    width: 50%;
-
+    width: 100%;
+    text-align: end;
+    margin-right: 60px;
 }
 
 .div-portfolio h2{
@@ -324,6 +340,47 @@ body{
     background-color: #d1341f;
 }
 
+/* -- Horários de Agendamento */
+
+.horarios{
+    height: 355px;
+    background-image: url('../Assets/background-horarios.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-horarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+.div-horarios img{
+    height: 1.5rem;
+    margin: 0.8rem;
+}
+
+.div-horarios h2{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.div-horarios h4{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.div-horarios p{
+    font-weight: 300;
+    font-size: 1rem;
+}
 
 /* -- UTILIZAR O MEDIA SCREEN PARA FAZER A RESPONSIVIDADE*/
 @media screen and (max-width:450px) {
