@@ -20,20 +20,34 @@
 </head>
 <body>
     <!--CODIGO DO CABEÇALHO-->
-    <header class="cabecalho">
-        <img src="../Assets/Logo-Barbearia.png" alt="Logo" height="80">
-        <nav>
-          <a href="#inicio">Início</a>
-          <a href="#servicos">Serviços</a>
-          <a href="#historia">História</a>
-          <a href="#profissionais">Profissionais</a>
-          <a href="https://wa.me/55459993352" target="_blank">WhatsApp</a>
-        </nav>
-    </header>  
+    <header>
+        <div class="cabecalho">
+            <div class="flex1" >
+                <img src="../Assets/Logo-Barbearia.png" alt="Logo" height="200">
+            </div>
+            <nav class="flex3">
+              <a class="nav-item" href="#inicio">Início</a>
+              <a class="nav-item" href="#servicos">Serviços</a>
+              <a class="nav-item" href="#historia">História</a>
+              <a class="nav-item" href="#profissionais">Profissionais</a>
+            </nav>
+            <div class="cabecalho-div flex1">
+                <img src="../Assets/phone-svgrepo-com (1).svg">
+                <a href="https://wa.me/554599933522" target="_blank">+55 (45) 9993-3522</a>
+            </div>
+        </div>
+        <div class="imagens">
+            <img src="../Assets/chat-round-dots-svgrepo-com.svg" alt="">
+            <img src="../Assets/instagram-svgrepo-com.svg" alt="">
+            <img src="../Assets/tik-tok-svgrepo-com.svg" alt="">
+        </div>
+    </header>
+
+    <!--Portifólio-->
     <div class="portifolio-title">
         <h1>Portifolio</h1>
     </div>
-    <article class="portifolio" id="portifolio"><!--Fotos do Portifólio-->
+    <article class="portifolio" id="portifolio">
         <div class="div-portifolio"><img src="../Assets/portifolio/corte 1.jpg" alt="corte 1" width="200" height="200"></div>
         <div class="div-portifolio"><img src="../Assets/portifolio/corte 2.jpg" alt="corte 2" width="200" height="200"></div>
         <div class="div-portifolio"><img src="../Assets/portifolio/corte 3.jpg" alt="corte 3" width="200" height="200"></div>
@@ -41,13 +55,26 @@
         <div class="div-portifolio"><img src="../Assets/portifolio/corte 5.jpg" alt="corte 5" width="200" height="200"></div>
         <div class="div-portifolio"><img src="../Assets/portifolio/corte 6.jpg" alt="corte 6" width="200" height="200"></div>
     </article>
-    <footer class="rodape">
-        <div class="rodape-background">
-            <a href="www.google.com" class="texto-footer">Av Juscelino Kubistchek<br/>1425<br/>Foz do iguaçu, Paraná</a>
-            <img src="../Assets/email-icone.svg" alt="" class="icone">
-            <p class="texto-footer">Barbearia_barber@email.com</p>
-            <p class="texto-footer">+55 (45) 9 9999-9999</p>
-        </div>  
-    </footer>
+    
+    <!--CODIGO DO RODAPÉ-->
+  <div class="div-imagem-email">
+    <img src="../Assets/email-icone.svg" alt="" class="icone">
+  </div>
+
+  <div class="div-imagem-mapa">
+    <img src="../Assets/pin-mapa.svg" alt="" class="icone">
+  </div>
+
+  <div class="div-imagem-celular">
+    <img src="../Assets/celular.svg" alt="" class="icone">
+  </div>
+  
+  <footer class="rodape">
+    <div class="rodape-background">
+          <a href="www.google.com" class="texto-footer">Av Juscelino Kubistchek<br/>1425<br/>Foz do iguaçu, Paraná</a>
+          <p class="texto-footer">Barbearia_barber@email.com</p>
+          <p class="texto-footer">+55 (45) 9 9999-9999</p>
+    </div>  
+  </footer>
 </body>
 </html>
