@@ -1,0 +1,152 @@
+
+.cabecalho img{
+    display: flex;
+    justify-content: left;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: normal;
+}
+.cabecalho nav {
+    flex-grow: 1;
+    text-align: center; 
+}
+
+.cabecalho nav a {
+    margin: 0 15px;
+    text-decoration: none; 
+}
+
+.container {
+    margin-top: 100px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container{
+    width: 60%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #051B30;
+    text-align: auto;
+    margin-left: 200px;
+    
+}
+
+.historico-container{
+    width: 60%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #051B30;
+    text-align: auto;
+    margin-right: 200px;
+  
+
+}
+
+
+
+
+.form-group {
+    margin-bottom: 20px; 
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 10px; 
+    padding: 10px; 
+    
+}
+
+
+input[type="text"] {
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 5px; 
+    font-size: 16px;
+    width: 200px;
+}
+
+body {
+    background-image: url('Imagens/Img/OIP.jpg');
+    
+    background-size: cover; 
+    background-position: center; 
+}
+
+
+
+input[type="tel"] {
+
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 5px; 
+    font-size: 16px; 
+    width: 200px; 
+
+
+
+}
+
+button[type="submit"]{
+    background-color: #E3402A;
+            color: white; 
+            padding: 10px 20px; 
+            font-size: 16px; 
+            border: none; 
+            cursor: pointer; 
+            border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    background-color: #e46600; 
+}
+
+
+button:active {
+    background-color: #911d0d; 
+}
+
+.form-container h2{
+    color: white;
+}
+
+.historico-container h2{
+    color: white ;
+}
+
+.rodape{
+    height: 222px;
+    background-color: #051B30;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.rodape-background{
+    align-items: center;
+    gap: 200px;
+    display: flex;    
+}
+
+.texto-footer{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    color: #FFF;
+}
+
+.icone{
+    height: 32px;
+}
