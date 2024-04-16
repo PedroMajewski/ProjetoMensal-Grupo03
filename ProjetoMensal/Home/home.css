@@ -11,6 +11,11 @@ body{
   
 }
 
+/* Responsividade do Mapa*/
+body iframe{
+    width: 100%;
+}
+
 /*Scroll Na parte direita do Site --*/
 
 ::-webkit-scrollbar{
@@ -96,7 +101,7 @@ body{
 
 /* Página Principal*/
 .introducao{
-    height: 850px;
+    height: 53.125rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +119,7 @@ body{
 }
 
 .div-introducao button{
-    padding: 8px 20px;
+    padding: 0.5rem 1.25rem;
     border: none;
     background-color: #E3402A;
     color: #FFF;
@@ -122,7 +127,7 @@ body{
     letter-spacing: 2px;
     font-weight: 300;
     font-size: 13px;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .div-introducao button:hover{
@@ -160,10 +165,11 @@ body{
 }
 
 .servicos{
-    height: 630px;
+    height: 39.375rem;
     background-image: url('../Assets/Fundo-servicos.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,19 +177,19 @@ body{
 
 
 .div-servicos{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
     background-color: #E3402A;
-    height: 520px;
-    width: 430px;
-    padding: 15px;
+    width: 26.875rem;
+    padding: 20px;
     border-radius: 5px;
 
 }
 
 .div-servicos img{
     height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .div-servicos h2{
@@ -206,6 +212,7 @@ body{
 }
 
 .descricao h4{
+    display: flex;
     font-weight: 300;
 }
 
@@ -224,7 +231,7 @@ body{
 }
 
 .servico1{
-    margin-bottom: 35px;
+    margin-bottom: 2rem;
 }
 
 .agendamento{
@@ -394,7 +401,7 @@ body{
 
 .horarios{
     height: 355px;
-    background-image: url('../Assets/background-horarios.webp');
+    background-image:linear-gradient(#00000070,#00000070), url('../Assets/background-horarios.webp');
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -432,10 +439,81 @@ body{
     font-size: 1rem;
 }
 
+.feedback{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 33rem;
+}
+
+.feedback h2{
+    font-weight: 600;
+    color: #FFF;
+    font-style: italic;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.div-feedback{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comentario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#E3402A;
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 30rem;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.comentario img{
+    margin-top: -4rem;
+    margin-bottom: 1rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.comentario h3{
+    color: #FFF;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.comentario p{
+    color: #FFF;
+    font-weight: 300;
+    text-align: center;
+}
+
+.comentario h6{
+    color: #FFF;
+    font-weight: 400;
+}
+
+.estrelas {
+    margin-top: 3rem;
+    height: 0rem;
+    
+}
+
+.estrelas img{
+    height: 1rem;
+}
+
+
+
 /* -- UTILIZAR O MEDIA SCREEN PARA FAZER A RESPONSIVIDADE*/
 @media screen and (max-width:450px) {
     body{
-        background-image:linear-gradient( rgba(255, 255, 255, 0),#051B30, #051B30), url('../Assets/Fundo-mobile.png');
+        background-image:linear-gradient(rgba(255, 255, 255, 0),#051B30, #051B30 80%), url('../Assets/Fundo-mobile.png');
   background-repeat:no-repeat;
   background-attachment:local;
   background-size:contain;
@@ -443,7 +521,7 @@ body{
     }
 
     .introducao{
-        height: 700px;
+        height: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -488,13 +566,44 @@ body{
     }
     
     .servicos{
-        height: 500px;
+        height: 33rem;
+        background-position:right;
     }
 
     .div-servicos{
         background:#000000b0;
-        height: 500px;
+        height: 33rem;
     }
+    
+
+    .horarios{
+        background-position: center;
+    }
+
+    .feedback{
+        height: 80rem;
+    }
+
+    .div-feedback{
+        flex-direction: column;
+    }
+
+    .feedback h2{
+        font-size: 20.8px;
+        margin-bottom: 2rem;
+    }
+
+    .comentario{
+    margin: 2rem;
+    padding: 1.5rem;
+    width: 18rem;
+    border-radius: 5px;
+    }
+
+    .comentario p{
+        width: 15rem;
+    }
+
 }
 /*Rodapé Apenas abaixo*/
 
