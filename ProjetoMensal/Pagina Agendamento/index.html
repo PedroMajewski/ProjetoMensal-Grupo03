@@ -12,26 +12,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
-    
-    
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
 
     <header class="cabecalho">
         <img src="../Assets/Logo-Barbearia.png" alt="Logo" height="80">
         <nav>
-          <a href="#inicio">Início</a>
-          <a href="#servicos">Serviços</a>
-          <a href="#historia">História</a>
-          <a href="#profissionais">Profissionais</a>
-          <a href="https://wa.me/55459993352" target="_blank">WhatsApp</a>
+            <a href="#inicio">Início</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#historia">História</a>
+            <a href="#profissionais">Profissionais</a>
+            <a href="https://wa.me/55459993352" target="_blank">WhatsApp</a>
         </nav>
-    </header>  
-
+    </header>
 
     <div class="container">
-        
-        <div class="form-container">
+        <div class="form-container" id="inicio">
             <h2>Agendamento Online</h2>
             <form id="agendamentoForm">
                 <div class="form-group">
@@ -39,38 +40,52 @@
                     <input type="text" id="nome" name="nome" required>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">         Telefone:</label>
+                    <label for="telefone">Telefone:</label>
                     <input type="tel" id="telefone" name="telefone" required>
                 </div>
                 <div class="form-group">
-                    <label for="servico">          Serviço:</label>
+                    <label for="servico">Serviço:</label>
                     <input type="text" id="servico" name="servico" required>
                 </div>
                 <div class="form-group">
-                    <label for="profissional">    Profissional:</label>
+                    <label for="profissional">Profissional:</label>
                     <input type="text" id="profissional" name="profissional" required>
                 </div>
                 <button type="submit">Agendar</button>
             </form>
         </div>
-       
-        <div class="historico-container">
+
+        <div class="historico-container" id="historia">
             <h2>Histórico de Uso</h2>
-            <ul id="historico">
-             
-            </ul>
+            <div class="quadrado-branco">
+                <ul id="historico">
+                    <ul>Peida Nao Xerequinha</ul>
+                </ul>
+            </div>
         </div>
     </div>
 
     <footer class="rodape">
         <div class="rodape-background">
-            <a href="www.google.com" class="texto-footer">Av Juscelino Kubistchek<br/>1425<br/>Foz do iguaçu, Paraná</a>
-            <img src="../Assets/email-icone.svg" alt="" class="icone">
-            <p class="texto-footer">Barbearia_barber@email.com</p>
-            <p class="texto-footer">+55 (45) 9 9999-9999</p>
+            <!--Mapa-->
+            <div class="div-imagem">
+                <img src="../Assets/pin-mapa.svg" alt="" class="icone">
+                <a href="www.google.com" class="texto-footer">Av Juscelino Kubistchek<br>1425<br>Foz do Iguaçu, Paraná</a>
+            </div>
+            <!--Email-->
+            <div class="div-email">
+                <img src="../Assets/email-icone.svg" alt="" class="icone">
+                <p class="texto-footer">Barbearia_barber@email.com</p>
+            </div>
+            <!--Celular-->
+            <div class="div-imagem">
+                <img src="../Assets/celular.svg" alt="" class="icone">
+                <p class="texto-footer">+55 (45) 9 9999-9999</p>
+            </div>
         </div>  
     </footer>
-
- 
+    
+    <!--Link Javascript do Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 </body>
 </html>

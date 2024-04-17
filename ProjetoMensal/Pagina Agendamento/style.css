@@ -8,6 +8,7 @@ h2 {
 
 body {
     font-family: 'Inter', sans-serif;
+    
 }
 
 .cabecalho, .cabecalho nav, .cabecalho nav a {
@@ -50,26 +51,25 @@ body {
 }
 
 .form-container{
-    width: 60%;
+    width: 50%; 
     padding: 20px;
     border-radius: 5px;
     box-sizing: border-box;
     background-color: #051B30;
     text-align: auto;
-    margin-left: 200px;
     margin-bottom: 5%;
+    
 }
 
 .historico-container{
-    width: 60%;
+    width: 50%; 
     padding: 20px;
     border-radius: 5px;
     box-sizing: border-box;
     background-color: #051B30;
     text-align: auto;
-    margin-right: 200px;
     margin-bottom: 5%;
-    margin-right: 10%;
+    margin-right: 0%;
 }
 
 .form-group {
@@ -96,7 +96,9 @@ input[type="text"] {
 body {
     background-image: url('Imagens/Img/BackGround.jpg');
     background-size: cover; 
-    background-position: center; 
+    background-position: center;
+    min-height: 100vh;
+    
 }
 
 input[type="tel"] {
@@ -132,102 +134,85 @@ button:active {
 .historico-container h2{
     color: white ;
 }
-/* Roda pe*/
+.quadrado-branco {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 95%; /* Defina a largura máxima do quadrado branco */
+    margin: 0 auto; /* Centralize o quadrado branco */
+}
 
-.rodape{
-    height: 222px;
+
+.rodape {
     background-color: #051B30;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto; /* Alinha o rodapé ao final da página */
+    
 }
+    
+
 
 .rodape-background{
     align-items: center;
-    gap: 200px;
-    display: flex;    
+    display: flex;
+    width: fit-content;
+    align-content: center;
+    margin-left: 6rem;
+    margin: auto;
+    
+    
 }
-
 .texto-footer{
     font-family: "Inter", sans-serif;
     align-content: center;
     font-weight: 300;
-    font-size: 19px;
+    font-size: 1.2rem;
     color: #FFF;
 }
 
 .icone{
-    height: 32px;
+    height: 2rem;
+    width: fit-content;
+    margin-bottom: 1rem;
 }
 
-.div-imagem-email{
+.div-imagem{
     background-color: #051B30;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    position: absolute;
-    margin-top: 86px;
-    margin-left: 50rem;
+    align-items: center;
+    position: center;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
-.div-imagem-mapa{
-    background-color: #051B30;
+.div-email{
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    position: absolute;
-    margin-top: 5.5rem;
-    margin-left: 22rem;
+    align-items: center;
+    position: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 12.5rem;
+    
 }
 
-.div-imagem-celular{
-    background-color: #051B30;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    position: absolute;
-    margin-top: 86px;
-    margin-left: 74.5rem;
+.div-email img{
+    padding-right: 1rem;
 }
 
+.div-imagem img{
+    padding-right: 1rem;
+}
 
-/* Responsividade mobile*/
-
-@media screen and (max-width: 768px) {
-    .container {
-        flex-direction: row; 
-        justify-content: space-between;
-    }
-
-    .form-container {
-        width: 100%;
-        margin-left: 0%;
-    }
-
-    .historico-container {
-        width: 100%;
-        
-    }
-
-    .rodape {
-        height: auto; 
-    }
-
-    .rodape-background {
-        height: auto; 
-        font-size: 14px; 
-        padding: 5%; 
-        flex-direction: column; 
-        align-items: center; 
-        justify-content: center; 
-        text-align: center; 
-    }
-
-    .texto-footer {
-        margin: 5%; 
-    }
+.div-imagem a{
+    text-decoration: none-;
+    padding-bottom: 0.9rem;
 }
 
 
