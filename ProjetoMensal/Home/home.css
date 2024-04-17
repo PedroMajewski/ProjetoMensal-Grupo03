@@ -106,7 +106,7 @@ body iframe{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#051b3000,#051b3000,#051b30b3, #051b30,#051B30);
+    background: linear-gradient(#051b3000,#0d0d0e36,#11111198, #051b30,#051B30);
 }
 
 .div-introducao{
