@@ -317,7 +317,7 @@ body iframe{
     color: #FFF;
     font-weight: 300;
     margin-top: 1rem;
-    max-width: 30rem;
+    max-width: 100rem;
 }
 
 .agendamento-descricao button{
@@ -626,6 +626,7 @@ body iframe{
         background-color: #051B30;
     }
     
+    
     .div-agendamento{
         display: flex;
         flex-direction: column;
@@ -659,6 +660,7 @@ body iframe{
         padding-left: 0.8rem;
         font-size: 1rem;
         margin-top: 10px;
+        text-align: center;
     }
     
     .agendamento-imagens{
@@ -760,6 +762,33 @@ body iframe{
     
     .agendamento-descricao button:hover{
         background-color: #d1341f;
+    }
+
+    .portfolio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150rem;
+        background-color: #051B30;
+    }
+    
+    .portfolio-imagens{
+
+    }
+
+    .div-portfolio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .portfolio-descricao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 /*Rodapé Apenas abaixo*/
