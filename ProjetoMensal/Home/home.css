@@ -772,11 +772,6 @@ body iframe{
         height: 150rem;
         background-color: #051B30;
     }
-    
-    .portfolio-imagens{
-
-    }
-
     .div-portfolio{
         display: flex;
         flex-direction: column;

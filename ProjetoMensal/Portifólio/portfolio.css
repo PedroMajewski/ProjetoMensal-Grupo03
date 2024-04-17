@@ -2,20 +2,30 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(5, 27, 48);
-
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0;
 }
 /*Cabecalho*/
+header{
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+}
 .cabecalho{
     display: flex;
     letter-spacing: normal;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     margin-top: 20px;
+    padding: 1rem 1rem;
 }
 .cabecalho nav{
     display: flex;
     letter-spacing: normal;
     justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
 }
 
 .flex1{
@@ -29,7 +39,7 @@ body{
 
 .nav-item{
     font-size: 25px;
-    padding-right: 1.25rem;
+    padding-right: 4rem;
     color: #FFF;
     text-decoration: none;
     font-weight: 300;
@@ -43,7 +53,7 @@ body{
 }
 .cabecalho-div a {
     font-size: 25px;
-    padding-right: 1.25rem;
+    padding-right: 0.3rem;
     color: #FFF;
     text-decoration: none;
     font-weight: 300;
@@ -55,9 +65,10 @@ body{
     
 }
 .imagens img{
+    align-items: center;
     height: 27px;
     margin-right: 0.5%;
-    margin-top: -4rem;   
+    margin-top: -2rem;   
 }
 
 /*Portifolio*/
@@ -88,64 +99,78 @@ body{
 /*Rodapé Apenas abaixo*/
 
 .rodape{
-    height: 222px;
+    height: 13.9rem;
     background-color: #051B30;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:space-between;
 }
 
 .rodape-background{
     align-items: center;
-    gap: 200px;
-    display: flex;    
+    display: flex;
+    width: fit-content;
+    align-content: center;
+    margin-left: 6rem;
+    margin: auto;   
 }
-
 .texto-footer{
     font-family: "Inter", sans-serif;
     align-content: center;
     font-weight: 300;
-    font-size: 19px;
+    font-size: 1.2rem;
     color: #FFF;
 }
 
 .icone{
-    height: 32px;
+    height: 2rem;
+    width: fit-content;
+    margin-bottom: 1rem;
 }
 
-.div-imagem-email{
+.div-imagem{
     background-color: #051B30;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    position: absolute;
-    margin-top: 86px;
-    margin-left: 50rem;
+    align-items: center;
+    position: center;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
-.div-imagem-mapa{
-    background-color: #051B30;
+.div-email{
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    position: absolute;
-    margin-top: 5.5rem;
-    margin-left: 22rem;
+    align-items: center;
+    position: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 12.5rem;
 }
 
-.div-imagem-celular{
-    background-color: #051B30;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    position: absolute;
-    margin-top: 86px;
-    margin-left: 74.5rem;
+.div-email img{
+    padding-right: 1rem;
+}
+
+.div-imagem img{
+    padding-right: 1rem;
+}
+
+.div-imagem a{
+    text-decoration: none-;
+    padding-bottom: 0.9rem;
 }
 @media screen and (max-width:768px) {
     
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(5, 27, 48);
+        margin-left: 0;
+        margin-right: 0;  
+    }
     .cabecalho img{
         height: 4rem;
         margin-top: -6rem;
@@ -157,18 +182,17 @@ body{
         margin-top: -5rem;
     }
     .cabecalho.nav-item{
-        display: block;
+        display: flex;
         margin-bottom: -9rem;
     }
 
-    
-    
+    /*******************PORTIFOLIO*****************/
     .portifolio {
         display: grid;
         grid-template-columns: 6rem;
-        margin-left: -5rem;
+        margin-left: -16rem;
         gap: 3rem 8rem;
-        padding: 30px;
+        padding: 2rem;
         justify-content: center;
         text-align: center;
     }
@@ -183,7 +207,73 @@ body{
         color: #fff;
     }
     .div-portifolio img{
-        width: 190px;
-        height: 150px;
+        width: 22rem;
+        height: 16rem;
+    }
+/***************************RODA PE****************************/
+    .rodape{
+        height: 13.9rem;
+        background-color: #051B30;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+    
+    .rodape-background{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        align-content: center;
+        margin-left: 1rem;
+        margin: auto;   
+    }
+    .texto-footer{
+        font-family: "Inter", sans-serif;
+        align-content: center;
+        font-weight: 300;
+        font-size: 1rem;
+        color: #FFF;
+    }
+    
+    .icone{
+        height: 2rem;
+        width: fit-content;
+        margin-bottom: 1rem;
+    }
+    
+    .div-imagem{
+        background-color: #051B30;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: center;
+        justify-content: center;
+        margin-top: -4rem;
+    }
+    
+    .div-email{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: center;
+        justify-content: center;
+        margin-top: 1rem;
+        padding: 5rem;
+    }
+    
+    .div-email img{
+        padding-right: 0.3rem;
+    }
+    
+    .div-imagem img{
+        padding-right: 0.3rem;
+    }
+    
+    .div-imagem a{
+        text-decoration: none;
+        padding-bottom: 0.3rem;
     }
 }
