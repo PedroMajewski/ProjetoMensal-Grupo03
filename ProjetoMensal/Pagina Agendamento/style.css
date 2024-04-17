@@ -137,9 +137,11 @@ button:active {
 .quadrado-branco {
     background-color: white;
     padding: 20px;
-    border-radius: 10px;
-    max-width: 95%; /* Defina a largura máxima do quadrado branco */
-    margin: 0 auto; /* Centralize o quadrado branco */
+    max-width: 95%; 
+    margin: 0 auto; 
+    height: 80%;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 
