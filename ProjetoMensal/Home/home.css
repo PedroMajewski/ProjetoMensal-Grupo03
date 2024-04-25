@@ -123,6 +123,9 @@ body iframe{
     margin-top: 1%;
 }
 
+.header-mobile{
+    display: none;
+}
 
 /* Página Principal*/
 .introducao{

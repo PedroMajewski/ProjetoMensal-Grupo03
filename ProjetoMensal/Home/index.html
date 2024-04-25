@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="mobile.css">
     <!-- CSS para Tablets-->
     <link rel="stylesheet" href="tablet.css">
+
+    <!
 </head>
 <body>
 
@@ -55,7 +57,32 @@
         
     </div>
 
-   
+    <div class="header-mobile">
+        <div class="cabecalho-mobile">
+            <img src="../Assets/Logo-Barbearia.png" alt="Logo" height="100">
+            <button class="btn-agendar"><a href="../Pagina Agendamento/index.html">Agendar</a></button>
+            <div id="btn-menu">
+                <img src="../Assets/menu.svg" alt="menu" height=40" id="btn-menu">
+            </div>
+        </div>
+        <nav class="dropside-mobile" id="dropside-mobile'">
+            <img src="../Assets/Logo-Barbearia.png" alt="Logo" height="90">
+            <ul>
+                <li><a href="">Início</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">História</a></li>
+                <li><a href="">Profissionais</a></li>
+                <li><a href="">Agendamento</a></li>
+                <li><a href="">Horários</a></li>
+            </ul>
+            <hr>
+            <div class="imagens-dropside-mobile">
+                <img src="../Assets/chat-round-dots-svgrepo-com.svg" alt="">
+                <img src="../Assets/instagram-svgrepo-com.svg" alt="">
+                <img src="../Assets/tik-tok-svgrepo-com.svg" alt="">
+            </div>
+        </nav>
+    </div>
     </header>
  
     <!--CODIGO DA HOME-->
@@ -63,7 +90,7 @@
     <section class="introducao">
         <div class="div-introducao">
             <h2>Seu sucesso começa com um bom corte!</h2>
-            <a href="../Portifólio/portifolio.html"><button>Agendar</button></a>
+            <a href="../Portifólio/portifolio.html"><button class="btn-agendar">Agendar</button></a>
         </div>
     </section>
     <section class="historia" id="historia">
@@ -302,5 +329,8 @@
 
   <!--Link Javascript do Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  
+  <!--Link Javascript-->
+  <script src="./home.js"></script>
 </body>
 </html>
