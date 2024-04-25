@@ -108,22 +108,23 @@ body iframe{
 
 .cabecalho-div{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    
 
 }
 .imagens {
     display: flex;
-    align-items: center;
-    padding-right: 4.2rem;
+    justify-content: flex-end;
+    
+    
     
     
 }
 .imagens img{
     height: 1.2rem;
-    margin-right: 0.5%;
+    margin-left: 5%;
     
-           
+    
 }
 
 .logo{
