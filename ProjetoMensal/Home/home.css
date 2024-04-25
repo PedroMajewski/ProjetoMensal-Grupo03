@@ -601,23 +601,14 @@ body iframe{
     color: #FFF;
 }
 
-.icone-chat{
-    height: 2rem;
-    width: fit-content;
-    margin-bottom: 1rem;    
-}
-
-.icone-insta{
-    height: 2rem;
-    width: 6rem;
-    margin-bottom: 1rem;
-    gap: 0.5rem;
-}
-
-.icone{
-    height: 2rem;
-    width: fit-content;
-    margin-bottom: 1rem;
+.div-imagem-mapa{
+    background-color: #051B30;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: center;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
 .div-imagem{
@@ -637,7 +628,7 @@ body iframe{
     position: center;
     justify-content: center;
     margin-top: 1rem;
-    padding: 12.5rem;
+    padding: 4rem;
 }
 
 .div-email img{
@@ -653,11 +644,49 @@ body iframe{
     padding-bottom: 0.9rem;
 }
 
-.rodape-copyright{
+.div-imagem-icones{
+    background-color: #051B30;
     display: flex;
+    width: fit-content;
     flex-wrap: wrap;
     align-items: center;
+    position: center;
     justify-content: center;
-    align-content: center;
-    margin: auto;
+    margin-top: 1rem;
+}
+
+.div-imagem-icones img{
+    padding-right: 1rem;
+}
+
+.div-imagem-icones a{
+    text-decoration: none-;
+    padding-bottom: 0.9rem;
+}
+
+.icone-chat{
+    height: 2rem;
+    width: fit-content;
+    margin-bottom: 1.3rem;
+    margin-left: 4rem;    
+}
+
+.icone-insta{
+    height: 2rem;
+    width: fit-content;
+    margin-bottom: 1.3rem;
+    gap: 0.1rem;
+}
+
+.icone{
+    height: 2rem;
+    width: fit-content;
+    margin-bottom: 1.3rem;
+}
+
+.rodape-copyright{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
 }
