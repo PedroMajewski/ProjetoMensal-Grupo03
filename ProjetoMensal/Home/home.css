@@ -57,16 +57,29 @@ body iframe{
 }
 
 
+.cabecalho-div .flex1{
+    display: flex;
+    text-align: end;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
 .flex1{
     flex:1;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 
 .flex3{
     flex: 3;
+}
+
+.flex3 a{
+    font-size: 1.2rem;
 }
 
 .nav-item{
@@ -86,7 +99,7 @@ body iframe{
     
 }
 .cabecalho-div a {
-    font-size: 1.2rem;
+    font-size: 25px;
     padding-right: 1.25rem;
     color: #FFF;
     text-decoration: none;
@@ -95,22 +108,20 @@ body iframe{
 
 .cabecalho-div{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+    text-align: end;
 
 }
 .imagens {
     display: flex;
-    justify-content:  center;
-    
+    justify-content: end;
+    text-align: end;
+    padding-right: 4.2rem;
     
 }
 .imagens img{
-    height: 1.2rem;
+    height: 20px;
     margin-right: 0.5%;
-    margin-left: auto;
-    
+    margin-top: -1%;
            
 }
 
@@ -176,6 +187,7 @@ body iframe{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .div-historia img{
@@ -192,9 +204,11 @@ body iframe{
 .div-historia p{
     text-align: center;
     color: #FFF;
-    width: 700px;
+    width: 50rem;
     font-weight: 400;
     margin-bottom: 4rem;
+    text-align: center;
+    text-justify: inter-word;
 }
 
 .servicos{
@@ -597,7 +611,7 @@ body iframe{
     font-family: "Inter", sans-serif;
     align-content: center;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #FFF;
 }
 
