@@ -70,7 +70,7 @@ body iframe{
 }
 
 .nav-item{
-    font-size: 25px;
+    font-size: 1.2rem;
     padding-right: 1.25rem;
     color: #FFF;
     text-decoration: none;
@@ -79,13 +79,14 @@ body iframe{
 
 }
 .cabecalho-div img{
-    height: 25px;
+    height: 1.2rem;
     display: flexbox;
     align-items: center;
     
+    
 }
 .cabecalho-div a {
-    font-size: 25px;
+    font-size: 1.2rem;
     padding-right: 1.25rem;
     color: #FFF;
     text-decoration: none;
@@ -94,20 +95,22 @@ body iframe{
 
 .cabecalho-div{
     display: flex;
-    text-align: end;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 
 }
 .imagens {
     display: flex;
-    justify-content: end;
-    text-align: end;
-    padding-right: 4.2rem;
+    justify-content:  center;
+    
     
 }
 .imagens img{
-    height: 20px;
+    height: 1.2rem;
     margin-right: 0.5%;
-    margin-top: -1%;
+    margin-left: auto;
+    
            
 }
 
