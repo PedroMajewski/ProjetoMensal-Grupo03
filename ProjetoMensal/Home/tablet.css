@@ -5,6 +5,11 @@
         background-repeat: repeat-y;
     }
 
+    .div-historia p{
+        font-size: 1rem;
+        width: 25rem;
+    }
+
     .agendamento{
         display: flex;
         flex-direction: column;
