@@ -56,7 +56,6 @@ body {
     border-radius: 5px;
     box-sizing: border-box;
     background-color: #051B30;
-    text-align: auto;
     margin-bottom: 5%;
     
 }
@@ -67,7 +66,6 @@ body {
     border-radius: 5px;
     box-sizing: border-box;
     background-color: #051B30;
-    text-align: auto;
     margin-bottom: 5%;
     margin-right: 0%;
 }
@@ -279,6 +277,7 @@ button:active {
 }
 
 
+
 .texto-footer {
     font-size: 14px; 
     margin-bottom: 10px;
@@ -295,4 +294,4 @@ button:active {
 
 .div-imagem p {
     margin-top: 90px;
-}
+} 
