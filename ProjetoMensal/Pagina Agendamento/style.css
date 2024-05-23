@@ -233,7 +233,7 @@ button:active {
     align-items: center;
     display: flex;
     width: fit-content;
-    align-content: center;
+    align-content: baseline;
     margin-left: 6rem;
     margin: auto;   
 }
@@ -272,7 +272,7 @@ button:active {
     position: center;
     justify-content: center;
     margin-top: 1rem;
-    padding: 4rem;
+    padding: 3.5rem;
 }
 
 .div-email img{
@@ -312,7 +312,7 @@ button:active {
     height: 2rem;
     width: fit-content;
     margin-bottom: 1.3rem;
-    margin-left: 4rem;    
+    margin-left: 4.5rem;    
 }
 
 .icone-insta{
