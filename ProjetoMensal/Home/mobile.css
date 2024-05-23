@@ -436,7 +436,7 @@
 /*Rodapé responsivo no celular*/
 @media screen and (max-width: 768px){
     .rodape{
-        height: 13.9rem;
+        height: 20rem;
         background-color: #051B30;
         display: flex;
         align-content: center;
