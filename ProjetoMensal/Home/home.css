@@ -173,7 +173,7 @@ body iframe{
     border: none;
     background-color: #E3402A;
     color: #FFF;
-    border-radius: 1px;
+    border-radius: 3px;
     letter-spacing: 2px;
     font-weight: 300;
     font-size: 13px;
@@ -184,6 +184,7 @@ body iframe{
 .div-introducao button:hover{
     transition: .2s;
     background-color: #b92a18;
+    transform: scale(1.1);
 }
 
 .historia{
@@ -275,7 +276,7 @@ body iframe{
     flex-direction: column;
     background-color: #b8301e;
     width: 26.875rem;
-    height: 72%;
+    height: 35.5rem;
     padding: 20px;
     border-radius: 5px;
     transition: .4s;
