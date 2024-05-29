@@ -45,13 +45,25 @@
                     <input type="tel" id="telefone" name="telefone" required>
                 </div>
                 <div class="form-group">
-                    <label for="servico">Serviço:</label>
-                    <input type="text" id="servico" name="servico" required>
-                </div>
-                <div     class="form-group">
-                    <label for="profissional">Profissional:</label>
-                    <input type="text" id="profissional" name="profissional" required>
-                </div>
+                  <label for="servico">Serviço:</label>
+                  <input type="text" id="servico" name="servico" required>
+                  <div id="dropdown" class="dropdown-content" style="display: none;">
+                      <option value="Corte Simples">Corte Simples</option>
+                      <option value="Corte Social">Corte Social</option>
+                      <option value="Corte Completo">Corte Completo</option>
+                  </div>
+              </div>
+              <div class="form-group">
+                <label for="profissional">Profissional:</label>
+                <select id="profissional" name="profissional" required>
+                    <option value="" disabled selected>Selecione um profissional</option>
+                    <option value="Profissional 1">Chiquinha do pacote</option>
+                    <option value="Profissional 2">Professor Girafellas</option>
+                    <option value="Profissional 3">Chave do oitao</option>
+                </select>
+            </div>
+            
+            
                 <button type="submit">Agendar</button>
             </form>
         </div>
@@ -100,6 +112,10 @@
       </div>
     
     <!--Link Javascript do Bootstrap-->
+
+   
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
