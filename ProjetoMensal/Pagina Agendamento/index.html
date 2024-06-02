@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Agendamento</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,20 +10,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
     <style>
         html {
             scroll-behavior: smooth;
         }
+        #boton, #limpar {
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
-
     <header class="cabecalho">
         <img src="../Assets/Logo-Barbearia.png" alt="Logo" height="80">
         <nav>
-            <a href="file:///C:/Users/zfern/Documents/GitHub/ProjetoMensal-Grupo03/ProjetoMensal/Home/index.html
-            ">Início</a>
+            <a href="file:///C:/Users/zfern/Documents/GitHub/ProjetoMensal-Grupo03/ProjetoMensal/Home/index.html">Início</a>
             <a href="file:///C:/Users/zfern/Documents/GitHub/ProjetoMensal-Grupo03/ProjetoMensal/Home/index.html#servicos">Serviços</a>
             <a href="file:///C:/Users/zfern/Documents/GitHub/ProjetoMensal-Grupo03/ProjetoMensal/Home/index.html#historia">História</a>
             <a href="file:///C:/Users/zfern/Documents/GitHub/ProjetoMensal-Grupo03/ProjetoMensal/Portif%C3%B3lio/portifolio.html">Profissionais</a>
@@ -45,26 +44,27 @@
                     <input type="tel" id="telefone" name="telefone" required>
                 </div>
                 <div class="form-group">
-                  <label for="servico">Serviço:</label>
-                  <input type="text" id="servico" name="servico" required>
-                  <div id="dropdown" class="dropdown-content" style="display: none;">
-                      <option value="Corte Simples">Corte Simples</option>
-                      <option value="Corte Social">Corte Social</option>
-                      <option value="Corte Completo">Corte Completo</option>
-                  </div>
-              </div>
-              <div class="form-group">
-                <label for="profissional">Profissional:</label>
-                <select id="profissional" name="profissional" required>
-                    <option value="" disabled selected>Selecione um profissional</option>
-                    <option value="Profissional 1">Chiquinha do pacote</option>
-                    <option value="Profissional 2">Professor Girafellas</option>
-                    <option value="Profissional 3">Chave do oitao</option>
-                </select>
-            </div>
-            
-            
-                <button type="submit">Agendar</button>
+                    <label for="servico">Serviço:</label>
+                    <input type="text" id="servico" name="servico" required>
+                    <div id="dropdown" class="dropdown-content" style="display: none;">
+                        <option value="Corte Simples">Corte Simples</option>
+                        <option value="Corte Social">Corte Social</option>
+                        <option value="Corte Completo">Corte Completo</option>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="profissional">Profissional:</label>
+                    <select id="profissional" name="profissional" required>
+                        <option value="" disabled selected>Selecione um profissional</option>
+                        <option value="Chuqinha do pacote">Chiquinha do pacote</option>
+                        <option value="Professor Girafellas">Professor Girafellas</option>
+                        <option value="Chave do oitao">Chave do oitao</option>
+                        <option value="nhonhos">nhonhos</option>
+                        <option value="SeuMadrugas">Madrugas</option>
+                    </select>
+                </div>
+                <button id="boton" type="submit">Agendar</button>
+                <button id="limpar" type="clear">Limpar Histórico</button>
             </form>
         </div>
 
@@ -72,49 +72,36 @@
             <h2>Histórico de Uso</h2>
             <div class="quadrado-branco">
                 <ul id="historico">
-                    <ul> Gabriel Nunes </ul>
-                   
+                    <!-- Histórico de agendamentos será inserido aqui -->
                 </ul>
             </div>
         </div>
     </div>
 
-      <!--CODIGO DO RODAPÉ-->
-  
-      <footer class="rodape">
+    <footer class="rodape">
         <div class="rodape-background">
-          
-          <!--Mapa-->
             <div class="div-imagem-mapa">
-              <img src="../Assets/pin-mapa.svg" alt="" class="icone">
-              <a href="www.google.com" class="texto-footer">Av Juscelino Kubistchek<br>1425<br>Foz do iguaçu, Paraná</a>
+                <img src="../Assets/pin-mapa.svg" alt="" class="icone">
+                <a href="www.google.com" class="texto-footer">Av Juscelino Kubistchek<br>1425<br>Foz do iguaçu, Paraná</a>
             </div>
-          <!--Email-->
             <div class="div-email">
-              <img src="../Assets/email-icone.svg" alt="" class="icone">
-              <p class="texto-footer">Barbearia_barber@email.com</p>
+                <img src="../Assets/email-icone.svg" alt="" class="icone">
+                <p class="texto-footer">Barbearia_barber@email.com</p>
             </div>
-          <!--Celular-->
             <div class="div-imagem">
-              <img src="../Assets/celular.svg" alt="" class="icone">
-              <p class="texto-footer">+55 (45) 9 9999-9999</p>
+                <img src="../Assets/celular.svg" alt="" class="icone">
+                <p class="texto-footer">+55 (45) 9 9999-9999</p>
             </div>
-          <!--Icones-->
             <div class="div-imagem-icones">
-              <img src="../Assets/chat-round-dots-svgrepo-com.svg" alt="" class="icone-chat">
-              <img src="../Assets/instagram-svgrepo-com.svg" alt="" class="icone-insta">
-              <img src="../Assets/tik-tok-svgrepo-com.svg" alt="" class="icone">
+                <img src="../Assets/chat-round-dots-svgrepo-com.svg" alt="" class="icone-chat">
+                <img src="../Assets/instagram-svgrepo-com.svg" alt="" class="icone-insta">
+                <img src="../Assets/tik-tok-svgrepo-com.svg" alt="" class="icone">
             </div>
         </div>  
-      </footer>
-      <div class="rodape-copyright">
+    </footer>
+    <div class="rodape-copyright">
         <p class="texto-footer">© Copyright 2024 - Desenvolvido para Projeto Mensal</p>
-      </div>
-    
-    <!--Link Javascript do Bootstrap-->
-
-   
-    
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>

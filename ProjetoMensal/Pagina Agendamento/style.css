@@ -117,6 +117,28 @@ button[type="submit"]{
     border-radius: 5px;
 }
 
+button  {
+    background-color: #E3402A;
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+   
+select {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+button[type="clear"]:hover {
+    background-color: #e46600; 
+}
 button[type="submit"]:hover {
     background-color: #e46600; 
 }
@@ -142,6 +164,12 @@ button:active {
     margin-left: auto;
 
 }
+
+
+/* -- Rodape*/
+
+
+
 
 
 .rodape {
