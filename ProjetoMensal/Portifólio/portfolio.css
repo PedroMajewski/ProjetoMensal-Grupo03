@@ -75,26 +75,23 @@ header{
 /*Portifolio*/
 .portifolio {
     display: grid;
-    grid-template-columns: 25rem 25rem 25rem;
-    gap: 30px 20px;
-    padding: 30px;
     justify-content: center;
-    text-align: center;
-    margin-bottom: 70px;
+    align-items: center;
 }
-.div-portifolio img{
-    width: 350px;
-    height: 300px;
+.div-portifolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
-.portifolio-title{
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    color: #fff;
+.imagensPortifolio{
+    display: flex;
+    padding: 2rem;
+    width: 25rem;
+    transition: 0.5s
 }
-.portifolio-title h1{
-    font-size: 2rem;
-    font-weight: 300;
+.imagensPortifolio:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 /*Rodapé Apenas abaixo*/
