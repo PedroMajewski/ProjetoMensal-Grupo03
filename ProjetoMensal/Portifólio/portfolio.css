@@ -11,6 +11,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+.portifolio-title h1{
+    font-weight: 300;
+    color: #fff;
+}
 .div-portifolio{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -28,27 +32,5 @@ body{
 }
 
 @media screen and (max-width:768px) {
-    .portifolio {
-        display: grid;
-        grid-template-columns: 6rem;
-        margin-left: -16rem;
-        gap: 3rem 8rem;
-        padding: 2rem;
-        justify-content: center;
-        text-align: center;
-    }
-    .div-portifolio img{
-        height: 30px;
-    }
-    .portifolio-title{
-        text-align: center;
-        margin-left: 0.8rem;
-        margin-bottom: 2rem;
-        margin-top: 3rem;
-        color: #fff;
-    }
-    .div-portifolio img{
-        width: 22rem;
-        height: 16rem;
-    }
+    
 }
