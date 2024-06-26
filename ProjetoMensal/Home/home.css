@@ -428,7 +428,8 @@ body iframe{
 }
 
 .agendamento-imagens{
-    width: 50rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-top: 2rem;
 }
 
@@ -472,7 +473,7 @@ body iframe{
     color: #FFF;
     font-weight: 300;
     margin-top: 1rem;
-    max-width: 100rem;
+    max-width: 30rem;
 }
 
 .agendamento-descricao strong{
@@ -486,10 +487,13 @@ body iframe{
     padding: 0.7rem 1.4rem;
     color: #FFF;
     border-radius: 3px;
+    transition: .2s;
 }
 
 .agendamento-descricao button:hover{
     background-color: #d1341f;
+    transform: scale(1.1);
+    transition: .2s;
 }
 
 .portfolio{
@@ -502,25 +506,18 @@ body iframe{
   
 }
 
-.div-portfolio{
-    display: flex;
-    align-items: top;
-    justify-content: space-between;
-    
-    
-}
 .portfolio-texto{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin:12rem;
+    justify-content: space-between;
+    margin: 10rem;
 }
 
 
 .portfolio-imagens{
-    width: 50rem;
-    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
     text-align: end;
     
 }
@@ -539,7 +536,7 @@ body iframe{
 }
 
 .portfolio-descricao{
-    padding-right: 15rem;
+    padding-right: 9rem;
     animation: appear_cima;
     animation-timeline: view();
     animation-range: cover 0% cover 40%;
@@ -578,10 +575,13 @@ body iframe{
     padding: 0.7rem 1.4rem;
     color: #FFF;
     border-radius: 3px;
+    transition: .2s;
 }
 
 .portfolio-descricao button:hover{
     background-color: #d1341f;
+    transform: scale(1.1);
+    transition: .2s;
 }
 
 
@@ -704,4 +704,23 @@ body iframe{
 
 .mapa{
     background-color: #051B30;
+}
+
+@media screen and (min-width: 1100px) and (max-width:1300px) {
+    .agendamento-imagens img{
+        max-height: 250px;
+    }
+
+    .agendamento-descricao p {
+        font-size: 0.8rem;
+    }
+
+    .portfolio-imagens img{
+        max-height: 250px;
+    }
+
+    .portfolio-descricao p{
+        font-size: 0.8rem;
+    }
+    
 }
