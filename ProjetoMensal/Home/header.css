@@ -1,0 +1,104 @@
+.cabecalho{
+    display: flex;
+    letter-spacing: normal;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.cabecalho nav{
+    display: flex;
+    letter-spacing: normal;
+    justify-content: center;
+}
+
+
+.cabecalho-div .flex1{
+    display: flex;
+    text-align: end;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+.flex1{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.flex3{
+    flex: 3;
+}
+
+.flex3 a{
+    font-size: 1.2rem;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+    margin:  0 1rem;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 300;
+    transition: .2s;
+}
+
+.nav-item:hover{
+    transition: .2s;
+    color: #E3402A;
+}
+.cabecalho-div img{
+    height: 1.2rem;
+    display: flexbox;
+    align-items: center;
+    
+    
+}
+.cabecalho-div a {
+    font-size: 1.2rem;
+    padding-right: 1.25rem;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+
+.cabecalho-div{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.imagens {
+    display: flex;
+    justify-content: flex-end;
+    
+    
+    
+    
+}
+.imagens img{
+    height: 1.5rem;
+    margin-left: 5%;
+    
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: end;
+    margin-left: 6.7%;
+}
+
+.logo img{
+    height: 80px;
+    margin-left: 0.5%;
+    margin-top: 1%;
+}
+
+.header-mobile{
+    display: none;
+}  
