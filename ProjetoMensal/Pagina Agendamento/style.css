@@ -1,14 +1,9 @@
 
-
-/* fonte*/
-h2 {
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-
 body {
     font-family: 'Inter', sans-serif;
-    
+        background-image: linear-gradient(#051b3000,#0d0d0e36,#11111198, #051b30,#051B30), url('Imagens/Img/BackGround.jpg');
+        background-size: cover; 
+        background-position: center;
 }
 
 .cabecalho, .cabecalho nav, .cabecalho nav a {
@@ -44,30 +39,39 @@ body {
 }
 
 /* Agendamento CSS*/
-.container {
-    margin-top: 100px; 
-    display: flex;
-    justify-content: space-between;
-}
 
-.form-container{
-    width: 50%; 
-    padding: 20px;
-    border-radius: 5px;
-    box-sizing: border-box;
-    background-color: #051B30;
-    margin-bottom: 5%;
+.SectionAgendamento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
     
 }
 
-.historico-container{
-    width: 50%; 
-    padding: 20px;
-    border-radius: 5px;
-    box-sizing: border-box;
+.container {
+    display: flex;
+    justify-content: space-between;
     background-color: #051B30;
-    margin-bottom: 5%;
-    margin-right: 0%;
+    border-radius: 0.5rem;
+    padding: 3rem;
+    max-width: 70%;
+}
+
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.agendamentoForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
 }
 
 .form-group {
@@ -79,89 +83,111 @@ label {
     margin-bottom: 5px;
     font-weight: bold;
     color: #ffffff;
-    border-radius: 10px; 
-    padding: 10px; 
+    border-radius: 10px;
+    font-weight: 300;
 }
 
 input[type="text"] {
-    border: 1px solid #ccc; 
+    border: none; 
     border-radius: 5px; 
-    padding: 5px; 
+    padding: 0.6rem; 
     font-size: 16px;
-    width: 200px;
+    width: 30rem;
+    background-color: #d6d6d6;
 }
 
-body {
-    background-image: url('Imagens/Img/BackGround.jpg');
-    background-size: cover; 
-    background-position: center;
-    min-height: 100vh;
-    
+input:focus{
+    border: none;
+    outline: none;
 }
+
+select:focus{
+    border: none;
+    outline: none;
+}
+
 
 input[type="tel"] {
-    border: 1px solid #ccc; 
-    border-radius: 5px;
-    padding: 5px; 
-    font-size: 16px; 
-    width: 200px; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 0.6rem; 
+    font-size: 16px;
+    width: 30rem;
+    background-color: #d6d6d6;
 }
 
-button[type="submit"]{
-    background-color: #E3402A;
-    color: white; 
-    padding: 10px 20px; 
-    font-size: 16px; 
-    border: none; 
-    cursor: pointer; 
-    border-radius: 5px;
+.BtnAgendamento{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
 }
 
 button  {
+    padding: 0.8rem 1.25rem;
+    margin: 0 1rem;
+    border: none;
     background-color: #E3402A;
-    color: white; 
-    padding: 10px 20px; 
-    font-size: 16px; 
-    border: none; 
-    cursor: pointer; 
-    border-radius: 5px;
+    color: #FFF;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 13px;
+    transition: .2s;
+}
+
+button:hover{
+    transition: .2s;
+    background-color: #b92a18;
+    transform: scale(1.1);
 }
    
 select {
-    background-color: #f4f4f4;
-    color: #333;
+    border: none; 
+    border-radius: 5px; 
+    padding: 0.6rem; 
     font-size: 16px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    width: 30rem;
+    background-color: #d6d6d6;
+    cursor: pointer;
   }
-
-button[type="clear"]:hover {
-    background-color: #e46600; 
-}
-button[type="submit"]:hover {
-    background-color: #e46600; 
-}
-
-button:active {
-    background-color: #911d0d; 
-}
+  
 
 .form-container h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+
+.historico-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%; 
+    background-color: #051B30;
 }
 
 .historico-container h2{
-    color: white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 2rem;
 }
 .quadrado-branco {
     background-color: white;
     padding: 20px;
-    max-width: 95%; 
+    max-width: 100%; 
     margin: 0 auto; 
-    height: 80%;
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: auto;
+    height: 100%;
+    border-radius: 0.5rem
 
 }
 

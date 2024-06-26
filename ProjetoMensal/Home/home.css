@@ -322,7 +322,8 @@ body iframe{
 }
 
 .agendamento-imagens{
-    width: 50rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-top: 2rem;
 }
 
@@ -366,7 +367,7 @@ body iframe{
     color: #FFF;
     font-weight: 300;
     margin-top: 1rem;
-    max-width: 100rem;
+    max-width: 30rem;
 }
 
 .agendamento-descricao strong{
@@ -380,10 +381,13 @@ body iframe{
     padding: 0.7rem 1.4rem;
     color: #FFF;
     border-radius: 3px;
+    transition: .2s;
 }
 
 .agendamento-descricao button:hover{
     background-color: #d1341f;
+    transform: scale(1.1);
+    transition: .2s;
 }
 
 .portfolio{
@@ -396,25 +400,18 @@ body iframe{
   
 }
 
-.div-portfolio{
-    display: flex;
-    align-items: top;
-    justify-content: space-between;
-    
-    
-}
 .portfolio-texto{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin:12rem;
+    justify-content: space-between;
+    margin: 10rem;
 }
 
 
 .portfolio-imagens{
-    width: 50rem;
-    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
     text-align: end;
     
 }
@@ -433,7 +430,7 @@ body iframe{
 }
 
 .portfolio-descricao{
-    padding-right: 15rem;
+    padding-right: 9rem;
     animation: appear_cima;
     animation-timeline: view();
     animation-range: cover 0% cover 40%;
@@ -472,10 +469,13 @@ body iframe{
     padding: 0.7rem 1.4rem;
     color: #FFF;
     border-radius: 3px;
+    transition: .2s;
 }
 
 .portfolio-descricao button:hover{
     background-color: #d1341f;
+    transform: scale(1.1);
+    transition: .2s;
 }
 
 
@@ -599,121 +599,22 @@ body iframe{
 .mapa{
     background-color: #051B30;
 }
-/*Rodapé Apenas abaixo*/
 
+@media screen and (min-width: 1100px) and (max-width:1300px) {
+    .agendamento-imagens img{
+        max-height: 250px;
+    }
 
-.rodape{
-    height: 13.9rem;
-    background-color: #051B30;
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content:space-between;
-}
+    .agendamento-descricao p {
+        font-size: 0.8rem;
+    }
 
-.rodape-background{
-    align-items: center;
-    display: flex;
-    width: fit-content;
-    align-content: center;
-    margin-left: 6rem;
-    margin: auto;   
-}
-.texto-footer{
-    font-family: "Inter", sans-serif;
-    align-content: center;
-    font-weight: 300;
-    font-size: 1rem;
-    color: #FFF;
-}
+    .portfolio-imagens img{
+        max-height: 250px;
+    }
 
-.div-imagem-mapa{
-    background-color: #051B30;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    position: center;
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-.div-imagem{
-    background-color: #051B30;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    position: center;
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-.div-email{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    position: center;
-    justify-content: center;
-    margin-top: 1rem;
-    padding: 4rem;
-}
-
-.div-email img{
-    padding-right: 1rem;
-}
-
-.div-imagem img{
-    padding-right: 1rem;
-}
-
-.div-imagem a{
-    text-decoration: none-;
-    padding-bottom: 0.9rem;
-}
-
-.div-imagem-icones{
-    background-color: #051B30;
-    display: flex;
-    width: fit-content;
-    flex-wrap: wrap;
-    align-items: center;
-    position: center;
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-.div-imagem-icones img{
-    padding-right: 1rem;
-}
-
-.div-imagem-icones a{
-    text-decoration: none-;
-    padding-bottom: 0.9rem;
-}
-
-.icone-chat{
-    height: 2rem;
-    width: fit-content;
-    margin-bottom: 1.3rem;
-    margin-left: 4rem;    
-}
-
-.icone-insta{
-    height: 2rem;
-    width: fit-content;
-    margin-bottom: 1.3rem;
-    gap: 0.1rem;
-}
-
-.icone{
-    height: 2rem;
-    width: fit-content;
-    margin-bottom: 1.3rem;
-}
-
-.rodape-copyright{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
+    .portfolio-descricao p{
+        font-size: 0.8rem;
+    }
+    
 }

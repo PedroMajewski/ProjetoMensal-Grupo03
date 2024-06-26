@@ -14,9 +14,6 @@
         html {
             scroll-behavior: smooth;
         }
-        #boton, #limpar {
-            margin-right: 10px;
-        }
     </style>
 </head>
 <body>
@@ -31,52 +28,59 @@
         </nav>
     </header>
 
-    <div class="container">
-        <div class="form-container" id="inicio">
-            <h2>Agendamento Online</h2>
-            <form id="agendamentoForm">
-                <div class="form-group">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required>
+    <main>
+        <section class="SectionAgendamento">
+            <div class="container">
+                <div class="form-container" id="inicio">
+                    <h2>Agendamento Online</h2>
+                    <form id="agendamentoForm" class="agendamentoForm">
+                        <div class="form-group">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="servico">Serviço:</label>
+                            <input type="text" id="servico" name="servico" required>
+                            <div id="dropdown" class="dropdown-content" style="display: none;">
+                                <option value="Corte Simples">Corte Simples</option>
+                                <option value="Corte Social">Corte Social</option>
+                                <option value="Corte Completo">Corte Completo</option>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="profissional">Profissional:</label>
+                            <select id="profissional" name="profissional" required>
+                                <option value="" disabled selected>Selecione um profissional</option>
+                                <option value="Chuqinha do pacote">Chiquinha do pacote</option>
+                                <option value="Professor Girafellas">Professor Girafellas</option>
+                                <option value="Chave do oitao">Chave do oitao</option>
+                                <option value="nhonhos">nhonhos</option>
+                                <option value="SeuMadrugas">Madrugas</option>
+                            </select>
+                        </div>
+                        <div class="BtnAgendamento">
+                            <button id="boton" type="submit">Agendar</button>
+                            <button id="limpar" type="clear">Limpar Histórico</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" id="telefone" name="telefone" required>
-                </div>
-                <div class="form-group">
-                    <label for="servico">Serviço:</label>
-                    <input type="text" id="servico" name="servico" required>
-                    <div id="dropdown" class="dropdown-content" style="display: none;">
-                        <option value="Corte Simples">Corte Simples</option>
-                        <option value="Corte Social">Corte Social</option>
-                        <option value="Corte Completo">Corte Completo</option>
+        
+                <div class="historico-container" id="historia">
+                    <h2>Histórico de Uso</h2>
+                    <div class="quadrado-branco">
+                        <ul id="historico">
+                            <!-- Histórico de agendamentos será inserido aqui -->
+                        </ul>
                     </div>
                 </div>
-                <div class="form-group">
-                    <label for="profissional">Profissional:</label>
-                    <select id="profissional" name="profissional" required>
-                        <option value="" disabled selected>Selecione um profissional</option>
-                        <option value="Chuqinha do pacote">Chiquinha do pacote</option>
-                        <option value="Professor Girafellas">Professor Girafellas</option>
-                        <option value="Chave do oitao">Chave do oitao</option>
-                        <option value="nhonhos">nhonhos</option>
-                        <option value="SeuMadrugas">Madrugas</option>
-                    </select>
-                </div>
-                <button id="boton" type="submit">Agendar</button>
-                <button id="limpar" type="clear">Limpar Histórico</button>
-            </form>
-        </div>
-
-        <div class="historico-container" id="historia">
-            <h2>Histórico de Uso</h2>
-            <div class="quadrado-branco">
-                <ul id="historico">
-                    <!-- Histórico de agendamentos será inserido aqui -->
-                </ul>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
+
 
     <footer class="rodape">
         <div class="rodape-background">
