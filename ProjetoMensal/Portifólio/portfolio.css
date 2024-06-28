@@ -29,7 +29,7 @@ body {
 
 .imagensPortifolio {
     display: flex;
-    margin-left: 1.5rem;
+    margin-left: 0.8rem;
     padding: 2rem;
     width: 25rem;
     transition: 0.5s;
