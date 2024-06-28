@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // LocalSotrage 
+  
     function carregarHistorico() {
         const historico = document.getElementById('historico');
         const agendamentos = JSON.parse(localStorage.getItem('agendamentos')) || [];
@@ -64,6 +64,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
             
             document.getElementById('agendamentoForm').reset();
+
+            const telefoneDestino = "5545998494985"; 
+            const mensagem = `Novo agendamento:\nNome: ${nome}\nTelefone: ${telefone}\nServiço: ${servico}\nProfissional: ${profissional}`;
+            const linkWhatsApp = `https://wa.me/${telefoneDestino}?text=${encodeURIComponent(mensagem)}`;
+            window.open(linkWhatsApp, '_blank');
         });
     }
 
