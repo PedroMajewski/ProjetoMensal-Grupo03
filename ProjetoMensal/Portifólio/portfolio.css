@@ -2,12 +2,20 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(5, 27, 48);
-    text-align: center;
-    margin: auto;
     margin-bottom: 0;
 }
 
+.portfolio-sect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .portifolio-title h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 300;
     color: #fff;
 }
@@ -24,7 +32,8 @@ body {
     margin-left: 1.5rem;
     padding: 2rem;
     width: 25rem;
-    transition: 0.5s
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .imagensPortifolio:hover {
@@ -37,7 +46,12 @@ body {
     right: 0px;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (min-width:1100px) and (max-width:1300px) {
+    .imagensPortifolio {
+        width: 20rem;
+    }
+}
+@media screen and (max-width:1100px) {
     .div-portifolio {
         display: flex;
         flex-wrap: wrap
@@ -48,5 +62,10 @@ body {
     }
     .imagensPortifolio:hover {
         transform: scale(1)
+    }
+
+    .portfolio-sect{
+        display: block;
+        padding-top: 35%;
     }
 }

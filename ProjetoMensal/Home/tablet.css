@@ -111,7 +111,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 160rem;
+        height: 100%;
         background-color: #051B30;
     }
     
@@ -263,7 +263,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 40rem;
+        height: 100%;
+        padding: 2rem 0rem;
         background: linear-gradient(#051B30,#032c52);
     }
     .div-portfolio{
@@ -285,6 +286,7 @@
         flex-direction:column;
         align-items: center;
         justify-content: center;
+        margin: 0;
     }
 
     .portfolio-descricao{
@@ -304,13 +306,6 @@
         text-align: center;
     }
 
-    .portfolio-imagens{
-        display: none;
-    }
-
-    .carrossel-mobile{
-        display: flex;
-    }
 
     .slider{
         display: flex;
@@ -318,18 +313,13 @@
 
     }
 
-    .carrossel-mobile{
-        margin-top: 1.2rem;
+    .portfolio-imagens{
     }
-    .carrossel-imagens{
-        display: flex;
+
+    .portfolio-imagens img{
+        display: grid;
         align-items: center;
-        justify-content: center;
-        width: 100%;
-        margin-top: 2.5rem;
-        grid-gap: 1rem;
-        overflow-x: auto;
-        scroll-snap-type: x;
+        height: 200px;
     }
 
     .carrossel-mobile img{
@@ -501,5 +491,19 @@
         flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 900px) {
+    .portfolio-imagens{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .portfolio-imagens img{
+        width: 30%;
+        height: 30%;
+        padding: 10rem;
     }
 }

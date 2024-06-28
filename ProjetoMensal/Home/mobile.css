@@ -75,7 +75,7 @@
         align-items: stretch;
         justify-content: center;
         flex-direction: column;
-        background-image: linear-gradient(#0000008e,#000000a4), url('../Assets/Fundo-servicos.jpg');
+        background-image: linear-gradient(#000000cc,#000000a4), url('../Assets/Fundo-servicos.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -88,11 +88,13 @@
     }
 
     .div-servicos_2{
+        background-image: linear-gradient(#000000cc,#000000a4), url('../Assets/Fundo-servicos.jpg');
         position: absolute;
         transform: translateY(17rem);
         height: 0;
         overflow: hidden;
-        transition: .2s;
+        transition: .3s;
+        background-color: transparent;
     }
     
 
@@ -277,8 +279,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 40rem;
+        height: 35rem;
         background: linear-gradient(#051B30,#032c52);
+    }
+
+    .portfolio-imagens{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: start;
     }
     .div-portfolio{
         display: flex;
@@ -318,12 +326,10 @@
         text-align: center;
     }
 
-    .portfolio-imagens{
-        display: none;
-    }
 
     .carrossel-mobile{
         display: flex;
+        flex-direction: column;
     }
 
     .slider{

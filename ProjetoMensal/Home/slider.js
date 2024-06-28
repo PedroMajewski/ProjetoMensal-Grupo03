@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    if ($(window).width() < 1100) { 
-        $('#div-portifolio').slick({ 
+    if ($(window).width() < 900) { 
+        $('#portfolio-imagens').slick({ 
             slidesToShow: 1, 
             slidesToScroll: 1, 
             autoplay: true, 
