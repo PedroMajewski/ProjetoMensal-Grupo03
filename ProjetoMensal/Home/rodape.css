@@ -9,7 +9,7 @@
 }
 
 .divtextos{
-    width: 40%;
+    width: 45%;
     display: flex;
     justify-content: space-between;
 }
@@ -84,4 +84,190 @@
 
 .rodapecopyright h1{
     font-size: 0.9rem;
+}
+
+@media screen and (max-width:450px) {
+    .divengloba{
+        height: 20rem;
+        width: 100%;
+        background-color: #051B30;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .divtextos{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-direction: column;
+    }
+    
+    .localfooter{
+        display: flex;
+    }
+    
+    .localfooter h2{
+        font-size: 1.2rem;
+    }
+    
+    .localfooter img{
+        width: 2rem;
+        color: #E3402A;
+    
+    }
+    
+    .emailfooter{
+        display: flex;
+        align-items: center;
+    }
+    
+    .emailfooter h2{ 
+        font-size: 1.2rem;
+    }
+    
+    .emailfooter img{
+        width: 2rem;
+        padding: 1;
+        color: #E3402A;
+    
+    }
+    
+    .celularfooter{
+        display: flex;
+        align-items: center;
+    }
+    
+    .celularfooter h2{
+        font-size: 1.2rem;
+    }
+    
+    .celularfooter img{
+        width: 2rem;
+        padding: 1;
+        color: #E3402A;
+    
+    }
+    
+    .iconesmenores{
+        display: flex;
+        width: 30%;
+        margin-top: 2rem;
+        margin-right: 4rem;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    .iconesmenores img{
+        width: 2rem;
+    }
+    
+    .rodapecopyright{
+        display: flex;
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: center;
+        height: 1rem;
+        background-color: #051B30;
+    }
+    
+    .rodapecopyright h1{
+        font-size: 0.9rem;
+    }   
+}
+
+@media screen and (min-width:451px) and (max-width:1100px) {
+    .divengloba{
+        height: 20rem;
+        width: 100%;
+        background-color: #051B30;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .divtextos{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-direction: column;
+    }
+    
+    .localfooter{
+        display: flex;
+    }
+    
+    .localfooter h2{
+        font-size: 1.2rem;
+    }
+    
+    .localfooter img{
+        width: 2rem;
+        color: #E3402A;
+    
+    }
+    
+    .emailfooter{
+        display: flex;
+        align-items: center;
+    }
+    
+    .emailfooter h2{ 
+        font-size: 1.2rem;
+    }
+    
+    .emailfooter img{
+        width: 2rem;
+        padding: 1;
+        color: #E3402A;
+    
+    }
+    
+    .celularfooter{
+        display: flex;
+        align-items: center;
+    }
+    
+    .celularfooter h2{
+        font-size: 1.2rem;
+    }
+    
+    .celularfooter img{
+        width: 2rem;
+        padding: 1;
+        color: #E3402A;
+    
+    }
+    
+    .iconesmenores{
+        display: flex;
+        width: 30%;
+        margin-top: 2rem;
+        margin-right: 4rem;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    .iconesmenores img{
+        width: 2rem;
+    }
+    
+    .rodapecopyright{
+        display: flex;
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: center;
+        height: 1rem;
+        background-color: #051B30;
+    }
+    
+    .rodapecopyright h1{
+        font-size: 0.9rem;
+    }
 }
