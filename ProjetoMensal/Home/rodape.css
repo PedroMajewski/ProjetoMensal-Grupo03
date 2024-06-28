@@ -21,6 +21,7 @@
 
 .localfooter h2{
     font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .localfooter img{
@@ -36,12 +37,14 @@
 
 .emailfooter h2{ 
     font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .emailfooter img{
     width: 2rem;
     padding: 1;
     color: #E3402A;
+    
 
 }
 
@@ -52,11 +55,18 @@
 
 .celularfooter h2{
     font-size: 1.2rem;
+    font-weight: 300;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.celularfooter h2:hover{
+    color: #E3402A;
+    transition: .3s;
 }
 
 .celularfooter img{
     width: 2rem;
-    padding: 1;
     color: #E3402A;
 
 }
@@ -73,6 +83,13 @@
 
 .iconesmenores img{
     width: 2rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.iconesmenores img:hover{
+    transform: scale(1.2);
+    transition: .3s;
 }
 
 .rodapecopyright{
@@ -86,6 +103,7 @@
 
 .rodapecopyright h1{
     font-size: 0.9rem;
+    font-weight: 400;
 }
 
 @media screen and (max-width:450px) {
