@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: rgb(5, 27, 48);
@@ -6,31 +6,47 @@ body{
     margin: auto;
     margin-bottom: 0;
 }
-.portifolio {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-.portifolio-title h1{
+
+.portifolio-title h1 {
     font-weight: 300;
     color: #fff;
 }
-.div-portifolio{
+
+.div-portifolio {
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
 
 }
-.imagensPortifolio{
+
+.imagensPortifolio {
     display: flex;
+    margin-left: 1.5rem;
     padding: 2rem;
     width: 25rem;
     transition: 0.5s
 }
-.imagensPortifolio:hover{
+
+.imagensPortifolio:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
 
-@media screen and (max-width:768px) {
-    
+.slick-next .slick-arrow {
+    display: none;
+    right: 0px;
+}
+
+@media screen and (max-width:900px) {
+    .div-portifolio {
+        display: flex;
+        flex-wrap: wrap
+;
+    }
+    .imagensPortifolio{
+        margin-left: 0.2rem;
+    }
+    .imagensPortifolio:hover {
+        transform: scale(1)
+    }
 }
