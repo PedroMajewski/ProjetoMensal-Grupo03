@@ -20,35 +20,67 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
   <link rel="stylesheet" href="portfolio.css">
-  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="../Home/mobile.css"">
+  <link rel="stylesheet" href="../Home/header.css">
   <link rel="stylesheet" href="footer.css">
 
 </head>
 
 <body>
-  <!--CODIGO DO CABEÇALHO-->
-  <header>
+
+   <!--CODIGO DO CABEÇALHO-->
+   <header>
     <div class="cabecalho">
-      <div class="flex1">
-        <img src="../Assets/Logo-Barbearia.png" alt="Logo" height="150">
-      </div>
-      <nav class="flex3">
-        <a class="nav-item" href="../Home/index.html#inicio">Início</a>
-        <a class="nav-item" href="../Home/index.html#servicos">Serviços</a>
-        <a class="nav-item" href="../Home/index.html#historia">História</a>
-        <a class="nav-item" href="../Home/index.html#agendamento">Profissionais</a>
-      </nav>
-      <div class="cabecalho-div">
-        <img src="../Assets/phone-svgrepo-com (1).svg">
-        <a href="https://wa.me/554599933522" target="_blank">+55 (45) 9993-3522</a>
-      </div>
+        <div class="flex1" >
+            <a href="../Home/index.html"><img src="../Assets/Logo-Barbearia.png" alt="Logo" height="100" class="logo"></a>
+        </div>
+        <nav class="flex3">
+          <a class="nav-item" href="../Home/index.html">Início</a>
+          <a class="nav-item" href="../Home/index.html#servicos">Serviços</a>
+          <a class="nav-item" href="../Portifólio/portifolio.html">Portfolio</a>
+          <a class="nav-item" href="../Home/index.html#agendamento">Profissionais</a>
+        </nav>
+        <div class="cabecalho-div flex1">
+                <div class="telefone">
+                    <img src="../Assets/phone-svgrepo-com (1).svg">
+                    <a href="https://wa.me/554599933522" target="_blank">+55 (45) 9993-3522</a>
+                </div> 
+            <div class="imagens">
+                <a href="https://wa.me/554599933522" target="_blank"><img src="../Assets/chat-round-dots-svgrepo-com.svg" alt="" ></a>
+                <a href="https://wa.me/554599933522" target="_blank"><img src="../Assets/instagram-svgrepo-com.svg" alt=""></a>
+                <a href="https://wa.me/554599933522" target="_blank"><img src="../Assets/tik-tok-svgrepo-com.svg" alt=""></a>
+            </div>
+        
+        </div>
+        
+        
     </div>
-    <div class="imagens">
-      <img src="../Assets/chat-round-dots-svgrepo-com.svg" alt="">
-      <img src="../Assets/instagram-svgrepo-com.svg" alt="">
-      <img src="../Assets/tik-tok-svgrepo-com.svg" alt="">
+
+    <div class="header-mobile">
+        <div class="cabecalho-mobile">
+            <img src="../Assets/Logo-Barbearia.png" alt="Logo" height="100">
+            <button class="btn-agendar"><a href="../Pagina Agendamento/index.html">Agendar</a></button>
+                <img src="../Assets/menu.svg" alt="menu" height="40" id="btn-menu">
+        </div>
+        <nav class="dropside-mobile" id="dropside-mobile">
+            <img src="../Assets/Logo-Barbearia.png" alt="Logo" height="90">
+            <ul>
+                <li><a href="../Home/index.html">Início</a></li>
+                <li><a href="../Home/index.html#servicos">Serviços</a></li>
+                <li><a href="../Home/index.html#historia">História</a></li>
+                <li><a href="../Home/index.html#agendamento">Profissionais</a></li>
+                <li><a href="../Pagina Agendamento/index.html">Agendamento</a></li>
+                <li><a href="../Portifólio/portifolio.html">Portfolio</a></li>
+            </ul>
+            <hr>
+            <div class="imagens-dropside-mobile">
+                <img src="../Assets/chat-round-dots-svgrepo-com.svg" alt="">
+                <img src="../Assets/instagram-svgrepo-com.svg" alt="">
+                <img src="../Assets/tik-tok-svgrepo-com.svg" alt="">
+            </div>
+        </nav>
     </div>
-  </header>
+</header>
 
   <!--Portifólio-->
   <div class="portifolio-title">
@@ -97,5 +129,5 @@
     <p class="texto-footer">Copyright 2024 - Desenvolvido para Projeto Mensal</p>
   </div>
 </body>
-
+<script src="../Home/home.js"></script>
 </html>
